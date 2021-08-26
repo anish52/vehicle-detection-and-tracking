@@ -1,4 +1,8 @@
 # vehicle-detection-and-tracking
+This project aims at processing the input video stream for vehicles. Currently, it can detect and track the vehicles present in the video. Additionally, we can track the service time for each car near the counter and calculate the average service time. It enables the drive-thru operators to optimize their throughput in terms of efficiency. This project uses the Object Detection API from Tensorflow with a pretrained model available under Model Zoo to achieve the above results. Future scope:
+Training a custom light-weight vehicle detector to speed up the processing.
+Detecting the speed and direction of the vehicle on highways and in turn, capturing the number plates for traffic offenders.
+
 
 Here is a demo output video:
 
